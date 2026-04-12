@@ -40,7 +40,7 @@ export function GitHubButton() {
               className="rounded-full px-8 py-6 text-lg font-bold shadow-lg hover:shadow-xl transition-shadow bg-foreground text-background hover:bg-foreground/90"
             >
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/yurika-nishimura"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3"
