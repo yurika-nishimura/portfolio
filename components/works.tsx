@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { ExternalLink, X, ChevronLeft, ChevronRight } from "lucide-react"
 import Image from "next/image"
+import { url } from "inspector"
 
 const works = [
   {
@@ -12,6 +13,7 @@ const works = [
     description: "ワイヤーフレーム作成からディレクション、コーディングまでを担当。HTML / CSSを使用したレスポンシブ対応のコーポレートサイトを制作。JavaScriptはAIツールや参考資料を活用しながら実装。",
     tags: ["HTML", "CSS", "JavaScript", "Claude", "Figma",],
     color: "bg-primary/10",
+    url: "https://sa-imon.com/",
     wireframeImages: [
       {
         src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PC-EvsiIVEM4SL8LC9ambbZklkdPpMZgu.png",
@@ -201,7 +203,9 @@ export function Works() {
                         <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                           {work.title}
                         </h3>
+                        <a href={work.url} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                        </a>
                       </div>
                       
                       <p className="text-muted-foreground text-sm leading-relaxed mb-4">
