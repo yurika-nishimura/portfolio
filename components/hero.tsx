@@ -33,7 +33,7 @@ export function Hero() {
           
           {/* 名前 */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-foreground mb-4 tracking-tight">
-            <span className="text-primary">Yurika</span> Nishimura
+            <span className="text-primary">Your</span> Name
           </h1>
           
           {/* キャッチコピー */}
