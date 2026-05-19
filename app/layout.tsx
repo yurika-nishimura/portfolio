@@ -10,7 +10,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: 'ポートフォリオ | Yurika Nishimura',
+  title: 'ポートフォリオ | YoureName',
   description: 'フロントエンドエンジニアのポートフォリオサイト',
   generator: 'v0.app',
   icons: {
